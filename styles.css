@@ -1,21 +1,42 @@
+body {
+  background: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #main {
+  text-align: center;
 }
 
 #title {
 }
 
 #img-div {
+  width: 450px;
+  margin: 0 auto;
 }
 
 #image {
-  width: 100%;
-  text-align: center;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 10px 5px 5px rgba(0,0,0, 0.85);
 }
 
 #img-caption {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 30px;
 }
 
 #tribute-info {
+  margin-top: 15px;
+  width: 450px;
+  margin: 0 auto;
+}
+
+#quote {
+  text-align: justify;
 }
 
 #tribute-link {
